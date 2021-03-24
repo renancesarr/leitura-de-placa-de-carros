@@ -33,10 +33,6 @@ from pdb import set_trace as pause
 app = Flask(__name__)
 
 
-
-
-
-
 @app.route('/',methods = [ 'POST', 'GET'])
 def hello_world():
     if(request.method == 'GET'):
